@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.writer.removespaces.MainActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterET"
+        android:layout_margin="20dp"
+        android:hint="Enter Text"
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="REMOVE SPACES"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="26dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/csBT"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Edited Text"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="25dp"
+        android:id="@+id/newTV"/>
+</LinearLayout>

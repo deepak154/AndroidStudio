@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.example.writer.togglebutton.MainActivity">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:text="ENABLE WIFI"
+    android:id="@+id/wifiTV"
+    android:textAlignment="center"
+    android:textSize="35dp"
+    android:textColor="@android:color/white"
+    android:background="@android:color/holo_blue_dark"
+
+    />
+<ToggleButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:id="@+id/butTB"
+    android:textOff="OFF"
+    android:textOn="ON"/>
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_dark"/>
+        <LinearLayout
+            android:layout_width="317dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="@android:color/holo_red_dark"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:id="@+id/cityTV"/>
+                <Button
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:id="@+id/cancelBT"
+                    android:background="@drawable/cross"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/locn"
+                    android:id="@+id/locnIV"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <Spinner
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:id="@+id/townSP"
+                    android:layout_weight="1"></Spinner>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Zip Code"
+                    android:id="@+id/zipET"
+                    android:inputType="number"
+                    android:layout_weight="1"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"/>
+                <AutoCompleteTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Land Mark"
+                    android:layout_weight="1"
+                    android:id="@+id/landmarkACTV"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginRight="20dp"/>
+
+
+            </LinearLayout>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Information"
+                android:id="@+id/rememberCB"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"/>
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/submitBt"
+                android:layout_gravity="end"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/sub"
+                android:layout_marginBottom="20dp">
+
+            </Button>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:background="@android:color/holo_red_dark"/>
+        </LinearLayout>
+        <View
+            android:layout_width="6dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_red_dark"/>
+    </LinearLayout>
+
+

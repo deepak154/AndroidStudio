@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.writer.tryprogram.MainActivity"
+    android:background="#3b5998">
+
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/fbimageIV"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/fb_white"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/emailET"
+        android:hint="Email or Phone"
+        android:textColorHint="@android:color/white"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:id="@+id/passwordET"
+        android:inputType="textPassword"
+        android:textColorHint="@android:color/white"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:id="@+id/loginBT"
+        android:layout_marginTop="12dp"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="#6d84b4"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/signupTV"
+        android:text="Sign Up For Facebook"
+        android:layout_marginTop="70dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:textSize="18dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/forgotTV"
+        android:text="Forgot Password?"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="30dp"
+        android:textSize="18dp"
+
+        />
+
+
+
+</LinearLayout>

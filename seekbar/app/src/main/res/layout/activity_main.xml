@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    tools:context="com.example.writer.seekbar.MainActivity">
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/musicSB"
+        android:layout_margin="20dp"
+        android:progressDrawable="@drawable/custom_progress"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTV"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:textSize="28dp"/>
+</LinearLayout>
